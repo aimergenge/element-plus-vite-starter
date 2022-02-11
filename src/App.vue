@@ -1,12 +1,15 @@
 <template>
-  <BaseHeader />
-  <img alt="Vue logo" class="element-plus-logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3.0 + Element Plus + Vite" />
+  <el-form
+    label-position="top"
+  >
+    <el-form-item label="用户名">
+      <el-input />
+    </el-form-item>
+  </el-form>
 </template>
 
 <script setup lang="ts">
-import BaseHeader from "./components/layouts/BaseHeader.vue";
-import HelloWorld from "./components/HelloWorld.vue";
+
 </script>
 
 <style>
